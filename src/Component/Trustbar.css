@@ -1,0 +1,32 @@
+.trustbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.trustbar h2 {
+  font-size: 18px;
+  font-weight: 100px;
+  margin-bottom: 24px;
+}
+
+.trustbar-logos{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;   /* ← changed back from space-between */
+  gap: 64px;                  /* ← increased from 48px */
+  flex-wrap: wrap;
+  width: 100%;                 /* ← NEW: let it take full available width */
+}
+.trustbar-logos img {
+  height: 32px;
+  width: auto;
+  
+
+}

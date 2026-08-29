@@ -1,0 +1,78 @@
+.howitworks-label {
+  color: #006E2D;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.howitworks-title {
+font-family: var(--font-heading);
+font-style: Semi Bold;
+font-size: 36px;
+line-height: 43.2px;
+letter-spacing: -1.44px;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+
+}
+.howitworks {
+  padding: 80px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.howitworks-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.howitworks-steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.howitworks-step {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.howitworks-step.reverse {
+  flex-direction: row-reverse;
+}
+
+.howitworks-step img {
+  width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.howitworks-step-text {
+  width: 50%;
+  text-align :start;
+}
+
+.howitworks-step-number {
+  font-size: 64px;
+  font-weight: 700;
+  color: #A8D5BA;
+  display: block;
+}
+
+.howitworks-step-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f3d3e;
+  margin: 8px 0;
+}
+
+.howitworks-step-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a4a4a;
+}

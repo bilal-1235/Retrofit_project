@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 16px 40px;
+  background-color: #ffff;
+  border-radius: 16px;
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0f3d3e;
+}}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+.btn-login {
+  font : Var(--font-primary);
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-getstarted {
+  font : Var(--font-primary);
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(to right, #003366 0%, #03525f 100%);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
