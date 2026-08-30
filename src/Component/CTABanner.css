@@ -1,0 +1,130 @@
+.cta-banner {
+  background-color: #0a1e33;
+  border-radius: 24px;
+  margin: 40px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.cta-content {
+  max-width: 400px;
+}
+
+.cta-avatars {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.cta-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #0a1e33;
+  margin-left: 10px;
+}
+
+.cta-avatar:first-child {
+  margin-left: 0;
+}
+
+.cta-heading {
+  display: flex;
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.cta-description {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 28px;
+}
+
+.cta-button {
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 8px 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0a1e33;
+  cursor: pointer;
+}
+
+.cta-button-arrow {
+  background-color: #0f3d3e;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-collage {
+  position: relative;
+  width: 420px;
+  height: 480px;
+  flex-shrink: 0;
+}
+
+.cta-ring {
+  position: absolute;
+  width: 350px;
+  height: 220px;
+  border: 24px solid #22c55e;
+  border-radius: 50%;
+  top: 130px;
+  left: 60px;
+  z-index: 1;
+}
+
+.cta-photo {
+  position: absolute;
+  border: 6px solid white;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+.cta-photo-1 {
+  width: 140px;
+  height: 180px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.cta-photo-2 {
+  width: 130px;
+  height: 150px;
+  top: 30px;
+  left: 130px;
+  z-index: 3;
+}
+
+.cta-photo-3 {
+  width: 130px;
+  height: 110px;
+  top: 200px;
+  left: 20px;
+  z-index: 4;
+}
+
+.cta-photo-4 {
+  width: 150px;
+  height: 260px;
+  top: 130px;
+  left: 220px;
+  z-index: 5;
+}

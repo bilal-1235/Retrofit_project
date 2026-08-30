@@ -1,27 +1,29 @@
 .Services {
-    color:#006E2D;
-     font-family: var(--font-primary);
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0px;
-    text-align: center;
-    vertical-align: middle;
-    text-transform:capitalize;
+  color: #006E2D;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
 
 }
+
 .Retrofit-Services {
-    font-family: var(--font-primary);
-    font-weight: 600;
-    font-style: Semi Bold;
-    font-size: 36px;
-    line-height: 43.2px;
-    letter-spacing: -1.44px;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: capitalize;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 36px;
+  line-height: 43.2px;
+  letter-spacing: -1.44px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
 }
+
 .services {
   padding: 80px 40px;
   max-width: 1200px;
@@ -49,16 +51,19 @@
 }
 
 .services-viewall {
-color: #12B14E;
-font-family: var(--font-primary);
-font-weight: 400;
-font-style: var(--font-primary);
-font-size: 22px;
-line-height: 24px;
-letter-spacing: -0.64px;
-text-align: center;
-vertical-align: middle;
-text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #12B14E;
+
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: var(--font-primary);
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.64px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
 
 }
 

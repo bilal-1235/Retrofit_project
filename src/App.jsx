@@ -9,6 +9,7 @@ import TrustBar from './Component/TrustBar'
 import Howitsworks from './Component/Howitsworks'
 import Services from './Component/Services'
 import Testimonials from './Component/Testimonials'
+import CTABanner from './Component/CTABanner'
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
     <Howitsworks/>
     <Services/>
     <Testimonials/>
+    <CTABanner/>
 
     
     
