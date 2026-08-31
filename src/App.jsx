@@ -10,6 +10,7 @@ import Howitsworks from './Component/Howitsworks'
 import Services from './Component/Services'
 import Testimonials from './Component/Testimonials'
 import CTABanner from './Component/CTABanner'
+import Footer from './Component/Footer'
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
     <Services/>
     <Testimonials/>
     <CTABanner/>
+    <Footer/>
 
     
     

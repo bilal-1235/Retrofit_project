@@ -31,37 +31,54 @@
 }
 
 .cta-heading {
-  display: flex;
-  font-family: var(--font-heading);
-  font-size: 32px;
-  font-weight: 700;
+  font-family: var(--font-Secondary);
+  font-weight: 600;
+  font-size: 27.49px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
   color: white;
-  margin-bottom: 16px;
+
 }
 
 .cta-description {
-  color: #cbd5e1;
-  font-size: 15px;
-  line-height: 22px;
-  margin-bottom: 28px;
+font-family: var(--font-Secondary);
+color: #C4C4C4;
+line-height: 22px;
+margin-bottom: 28px;
+font-weight: 300;
+font-style: Light;
+font-size: 15.71px;
+line-height: 100%;
+letter-spacing: 0%;
+
 }
 
 .cta-button {
+  width: 260px;
+  height: 66px;
+  opacity: 1;
   background-color: white;
   border: none;
   border-radius: 50px;
   padding: 8px 8px 8px 24px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 40px;
-  font-weight: 600;
-  font-size: 15px;
   color: #0a1e33;
   cursor: pointer;
+  font-family: var(--font-Secondary);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20.2px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
 }
 
 .cta-button-arrow {
-  background-color: #0f3d3e;
+ background: linear-gradient(269.98deg, #12B14E -214.32%, #003366 99.98%);
   color: white;
   width: 36px;
   height: 36px;
@@ -69,24 +86,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1%;
 }
 
 .cta-collage {
   position: relative;
-  width: 420px;
-  height: 480px;
+  width: 480px;
+  height: 420px;
   flex-shrink: 0;
 }
 
 .cta-ring {
   position: absolute;
-  width: 350px;
-  height: 220px;
-  border: 24px solid #22c55e;
+  width: 480px;
+  height: 260px;
+  border: 28px solid #22c55e;
   border-radius: 50%;
-  top: 130px;
-  left: 60px;
-  z-index: 1;
+  top: 80px;
+  left: -60px;
+  z-index: 2;
 }
 
 .cta-photo {
@@ -98,33 +116,33 @@
 }
 
 .cta-photo-1 {
-  width: 140px;
-  height: 180px;
+  width: 150px;
+  height: 200px;
   top: 0;
-  left: 0;
-  z-index: 2;
+  left: 80px;
+  z-index: 4;
 }
 
 .cta-photo-2 {
-  width: 130px;
-  height: 150px;
-  top: 30px;
-  left: 130px;
+  width: 135px;
+  height: 155px;
+  top: 40px;
+  left: 220px;
   z-index: 3;
 }
 
 .cta-photo-3 {
-  width: 130px;
-  height: 110px;
-  top: 200px;
-  left: 20px;
-  z-index: 4;
+  width: 145px;
+  height: 130px;
+  top: 220px;
+  left: 60px;
+  z-index: 1;
 }
 
 .cta-photo-4 {
-  width: 150px;
-  height: 260px;
-  top: 130px;
-  left: 220px;
-  z-index: 5;
+  width: 160px;
+  height: 280px;
+  top: 150px;
+  left: 300px;
+  z-index: 1;
 }

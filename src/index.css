@@ -12,6 +12,7 @@
   background-color: #f7f7f7;
 }
 :root {
+  --font-Secondary: 'Exo 2', sans-serif;
   --font-primary: 'Inter', sans-serif;
   --font-heading: 'Nunito Sans', sans-serif;
 }
