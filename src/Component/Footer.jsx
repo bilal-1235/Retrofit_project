@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { Instagram, Twitter, Linkedin, Facebook } from 'lucide-react';
+import { FaInstagram, FaTwitter, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -15,10 +15,10 @@ function Footer() {
             A centralized digital platform designed to modernize and scale retrofit service delivery.
           </p>
           <div className="footer-socials">
-            <a href="#" className="footer-social-icon"><Instagram size={16} /></a>
-            <a href="#" className="footer-social-icon"><Twitter size={16} /></a>
-            <a href="#" className="footer-social-icon"><Linkedin size={16} /></a>
-            <a href="#" className="footer-social-icon"><Facebook size={16} /></a>
+           <a href="#" className="footer-social-icon"><FaInstagram size={16} /></a>
+          <a href="#" className="footer-social-icon"><FaTwitter size={16} /></a>
+          <a href="#" className="footer-social-icon"><FaLinkedin size={16} /></a>
+          <a href="#" className="footer-social-icon"><FaFacebook size={16} /></a>
           </div>
         </div>
 
