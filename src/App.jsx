@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -11,7 +12,8 @@ import Services from './Component/Services'
 import Testimonials from './Component/Testimonials'
 import CTABanner from './Component/CTABanner'
 import Footer from './Component/Footer'
-function App() {
+import Login from './Component/Login';
+function LandingPage() {
 
   return (
     <>
@@ -23,11 +25,19 @@ function App() {
     <Testimonials/>
     <CTABanner/>
     <Footer/>
-
-    
-    
-    </>
-  )
+  
+     </>
+  );
+}
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App

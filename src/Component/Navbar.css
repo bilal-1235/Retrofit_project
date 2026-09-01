@@ -8,6 +8,10 @@ nav {
   padding: 16px 40px;
   background-color: #ffff;
   border-radius: 16px;
+   position: sticky;    /* ← add this */
+  top: 10px;              
+  z-index: 100; 
+  margin-bottom: 20px;
 
 .logo {
   display: flex;
