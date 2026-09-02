@@ -1,9 +1,8 @@
 #root {
-  width: 1440px;
-  height: 4940px;
-  max-width: 100%;
-  margin: 0 auto;
   
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
@@ -11,6 +10,7 @@
   box-sizing: border-box;
   background-color: #f7f7f7;
 }
+
 :root {
   --font-Secondary: 'Exo 2', sans-serif;
   --font-primary: 'Inter', sans-serif;

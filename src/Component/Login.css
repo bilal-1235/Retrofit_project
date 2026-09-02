@@ -1,7 +1,9 @@
 .login-page {
   display: flex;
-  min-height: 100vh;
+  min-height: 500px; 
+  margin: 100px; /* adjust as needed */
 }
+
 
 .login-image {
   flex: 1;

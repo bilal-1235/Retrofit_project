@@ -2,7 +2,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 import './Login.css';
-import loginImage from '../assets/Login/login-building.jpg';
+import loginImage from '../assets/LoginPage/loginBackground.png';
+
+import logo from "../assets/LogoHorizental.png";
+
+
+
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -23,7 +28,7 @@ function Login() {
 
       <div className="login-form-container">
         <div className="login-logo">
-          <span className="login-logo-text">RETROFIT<br />PORTAL</span>
+          <img src={logo} alt="Retrofit Portal" className="logo-icon" />
         </div>
 
         <div className="login-header">
