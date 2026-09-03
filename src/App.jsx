@@ -8,6 +8,7 @@ import Services from './Component/Services'
 import Testimonials from './Component/Testimonials'
 import CTABanner from './Component/CTABanner'
 import Login from './Component/Login';
+import Signup from './Component/Signup';
 
 function LandingPage() {
   return (
@@ -31,6 +32,7 @@ function App() {
           
         </Route>
         <Route path="login" element={<Login />} />
+         <Route path="signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
