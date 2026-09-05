@@ -73,3 +73,14 @@
   gap: 44px;
   padding: 5%;
 }
+.Services-description{
+  font-family: var(--font-primary);
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.8px;
+text-align: center;
+vertical-align: middle;
+
+}

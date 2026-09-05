@@ -9,6 +9,7 @@ import Testimonials from './Component/Testimonials'
 import CTABanner from './Component/CTABanner'
 import Login from './Component/Login';
 import Signup from './Component/Signup';
+import ServicesPage from './Component/ServicesPage';
 
 function LandingPage() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<LandingPage />} />
-          
+          <Route path="servicespage" element={<ServicesPage />} />
         </Route>
         <Route path="login" element={<Login />} />
          <Route path="signup" element={<Signup />} />
